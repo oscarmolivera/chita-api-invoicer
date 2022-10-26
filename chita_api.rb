@@ -37,7 +37,7 @@ class ChitaApi
       'x-api-key': "UVG5jbLZxqVtsXX4nCJYKwtt",
       'cache-control': "no-cache",
       'params': params
-    }
+    } 
   end
 
   # API request Params
@@ -46,7 +46,7 @@ class ChitaApi
   def params
     {
       client_dni: @client_dni,
-      debtor_dni: @debtor_dni,
+      debtor_dni: @debtor_dni,  
       document_amount: @document_amount,
       folio: @folio,
       expiration_date: @expiration_date
